@@ -10,7 +10,8 @@ highlighter: pygments
 #
 title : Jekyll Bootstrap
 tagline: Site Tagline
-remote_theme: pages-themes/minimal@v0.2.0
+#remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
  
 author :
   name : Name Lastname
@@ -29,7 +30,8 @@ author :
 #
 production_url : http://username.github.io
 
-plugins: ["jekyll-sitemap","jekyll-remote-theme"]
+plugins: ["jekyll-sitemap"] 
+#,"jekyll-remote-theme"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
