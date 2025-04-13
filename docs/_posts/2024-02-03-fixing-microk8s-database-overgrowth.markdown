@@ -61,7 +61,7 @@ If te compaction lag is too big, we can help by compacting things manually.
 
 Next important issue are the aforementioned gaps. It might be the cause of problems, but manual compaction might also cause gaps to appear.
 
-{% highlight sql %}SELECT COUNT(*) FROM kine WHWRE name LIKE 'gap-%';{% endhighlight %}
+{% highlight sql %}SELECT COUNT(*) FROM kine WHERE name LIKE 'gap-%';{% endhighlight %}
 
 If number of gap records is too big, they can be deleted.
 {% highlight sql %}DELETE FROM kine WHERE name LIKE 'gap-%';{% endhighlight %}
